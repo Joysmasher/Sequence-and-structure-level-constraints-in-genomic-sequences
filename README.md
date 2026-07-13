@@ -1,4 +1,4 @@
-# Investigating-the-presence-of-missing-peptides-across-the-central-dogma-
+# Uncovering-the-reason-behind-the-translation-level-exclusion-of-peptides-missing-in-natural-proteins
 
 # The Final_codes_for_CDS_CQWW.ipynb contains the whole pipeline for CQWW tetrapeptide analysis.
 
