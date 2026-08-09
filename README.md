@@ -92,4 +92,3 @@
 
 # The source code and associated files for version v1.0.3 are archived on Zenodo:
 
-# DOI: https://doi.org/10.5281/zenodo.21865104
