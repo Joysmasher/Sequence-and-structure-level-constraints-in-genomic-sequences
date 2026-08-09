@@ -1,4 +1,4 @@
-# Uncovering-the-reason-behind-the-translation-level-exclusion-of-peptides-missing-in-natural-proteins
+# Sequence and structure level constraints in genomic sequences prevent the expression of missing peptides in natural proteins
 
 # The Final_codes_for_CDS_CQWW.ipynb contains the whole pipeline for CQWW tetrapeptide analysis.
 
@@ -7,7 +7,7 @@
 # The files are Google colab notebook containing the end to end process pipeline of missing peptide identification and CDS mapping. This file can be uploaded in google colab/Jupyter and is ready to run. The codes in the pipeline can also be extracted and run independently on IDLEs like Pycharm. Both the notebooks require the same two input files at the start of the code. The input files are 1) uniprotkb_sprot(canonical+iso).fasta: Supplementary file 1 and 2) trembl_protein_struc.fasta: Supplementary file 2. 
 
 # ##################################################################################################################################
-# For the ncRNA_and_promoters.ipynb file, the input files are provided in supplementary files: Supplementary file 7 and supplementary file 20. The RNAcentral input file can be accessed via http://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release/sequences/rnacentral_active.fasta.gz. 
+# For the ncRNA_and_promoters.ipynb file, the input files are provided in supplementary files: Supplementary file 8 and supplementary file 20. The RNAcentral input file can be accessed via http://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release/sequences/rnacentral_active.fasta.gz. 
 # ##################################################################################################################################
 # The Secondary structure final code requires Supplementary file 5 or supplementary file 7 as inputs. 
 # Before runnning the code, Vienna RNA fold must be installed in the linux environments. For users working on windows operating system, below are the steps. 
