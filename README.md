@@ -1,4 +1,6 @@
 # Sequence and structure level constraints in genomic sequences prevent the expression of missing peptides in natural proteins
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21865104.svg)](https://doi.org/10.5281/zenodo.21865104)
+
 
 # The Final_codes_for_CDS_CQWW.ipynb contains the whole pipeline for CQWW tetrapeptide analysis.
 
