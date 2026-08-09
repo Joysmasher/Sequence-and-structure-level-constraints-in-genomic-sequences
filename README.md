@@ -8,7 +8,7 @@
 
 # For the ncRNA_and_promoters.ipynb file, the input files are provided in supplementary files: Supplementary file 8 and supplementary file 20. The RNAcentral input file can be accessed via http://ftp.ebi.ac.uk/pub/databases/RNAcentral/current_release/sequences/rnacentral_active.fasta.gz. 
 
-# The Secondary structure final code requires Supplementary file 4 or supplementary file 5 as inputs. 
+# The Secondary structure final code requires Supplementary file 5 or supplementary file 7 as inputs. 
 # Before runnning the code, Vienna RNA fold must be installed in the linux environments. For users working on windows operating system, below are the steps. 
 
 # wsl --install    Restart the system after installation.
@@ -59,12 +59,27 @@
 
 
 # FOR THE CODE in Stop_codon_Reverse_peptide_ncORF.ipynb 
-# Input files are Supplementary file 5: final_pep_frames_tranls.csv  &  Supplementary file 4: CQWW_frames.csv  for Stop codon analysis (Code cell 1 & 2) 
+# Input files are Supplementary file 7: final_pep_frames_tranls.csv  &  Supplementary file 5: CQWW_frames.csv  for Stop codon analysis (Code cell 1 & 2) 
 # Input file Supplementary file 5: final_pep_frames_tranls.csv for Reverse-peptide analysis (code cell 5)
 
 # ncORF analysis
   # Input file is 41587_2022_1369_MOESM2_ESM.xlsx for ncORF analysis (code cell 8)
-  # Input file: Supplementary file 5 for code cell 9
+  # Input file: Supplementary file 7 for code cell 9
   # Input files for code cell 10:  1. 41586_2026_10459_MOESM13_ESM.xlsx  -> ORF-level protein evidence
   # 2. 41586_2026_10459_MOESM14_ESM.xlsx  -> peptide-level MS evidence
+
+
+
+
+### Combinatorial study of present and absent pentapeptides
+
+## **Notebook:** `Combinatorial_study_of_present_&_absent_pentapeptides.ipynb`
+
+## This notebook compares the theoretical codon combinations and CDS mappings of missing pentapeptides with their present reverse-peptide counterparts. It also examines translation-table-specific representation and Frame-0 occurrence.
+
+## **Input files used:**
+# - `CQWW_frames.csv`
+# - `final_pep_frames_tranls.csv`
+# - `WWQC_CDS_specific_hits_all.csv`
+# - `MASTER_reverse_pentapeptide_CDS_hits_full_details.csv`
 
